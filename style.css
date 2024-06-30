@@ -35,7 +35,8 @@ html {
     display: block;
     text-align: center;
     padding: 10px;
-    color:rgb(235, 148, 18)
+    color:rgb(235, 148, 18);
+    font-size: 20px;
     
 }
 
@@ -48,7 +49,27 @@ html {
     color:rgb(235, 148, 18);
     text-align: center;
     
+    
 }
+
+.ball a {
+    color:rgb(235, 148, 18);
+    padding: 70px 0px;
+    
+}
+
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:active {
+    text-decoration: underline;
+  }
 
 
 /* Pictures*/
@@ -59,6 +80,13 @@ html {
     width: 40%;
     padding-bottom: 45px;
 }
+
+/* About p */
+
+span {
+    font-size: 30px;
+}
+
 /* Footer */
 #main-footer {
     padding: 50px;
@@ -67,6 +95,8 @@ html {
     text-align: center;
     background-color: rgb(99, 92, 82);
 }
+
+
 
 
 
