@@ -12,6 +12,12 @@ html {
 #container p {
     margin-left:30px;
 }
+.container {
+    background-color:  rgb(99, 92, 82); 
+    border-radius: 50%;
+    
+    
+}
 
 
 
@@ -87,13 +93,64 @@ span {
     font-size: 30px;
 }
 
+#container {
+ 
+    align-items: center;
+   }
+
+#container img {
+    max-height: 100%;
+    max-width: 200px;
+    
+}
+.c1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.text {
+    display:block;
+    float: left;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    line-height: 14px;
+    padding-top: 350px;
+    
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    background: #333;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.text-2 {
+    text-align: center;
+    
+}
+
+
+
+
 /* Footer */
 #main-footer {
-    padding: 50px;
-    color: rgb(235, 148, 18);
+    color:rgb(235, 148, 18);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     background-color: rgb(99, 92, 82);
+    
+    text-align: center;
+
+
+
+    
+
 }
 
 
