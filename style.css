@@ -170,7 +170,6 @@ span {
 .bio {
     font-size: 25px;
   
-    
 }
 
 
@@ -182,15 +181,14 @@ span {
 }
 #container-3 {
 
-    align-items:end;
+    text-align:left;
+
 }
+#container-3 a {
+    cursor:grab;
+    color: rgb(235, 148, 18);
     
-
-
-
-    
-
-
+}
 
 /* Footer */
 #main-footer {
