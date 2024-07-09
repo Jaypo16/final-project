@@ -5,6 +5,13 @@ html {
 
 }
 
+.top {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5px;
+    font-size: 24px;
+}
+
 /* New header */
 
 .header {
@@ -27,6 +34,7 @@ html {
 .header a.logo {
     font-size: 25px;
     font-weight: bold;
+    
 }
 
 .header a:hover {
@@ -37,6 +45,7 @@ html {
 .header a.active {
     background-color: orangered;
     color: black;
+    font-weight: bold;
 }
 
 .header-right {
@@ -84,6 +93,8 @@ html {
 
 .welcome {
 text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bol;
 }
 
 span {
@@ -110,6 +121,7 @@ span {
 }
 
 .text {
+   font-weight:;
     
 }
 
@@ -118,7 +130,7 @@ span {
 
     font-size: 16px;
     text-align: center;
-    cursor: grab;
+    cursor: pointer;
 
     
 }
@@ -145,24 +157,46 @@ span {
     display: grid;
     align-items: center; 
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 30px;
+    column-gap: 35px;
     
     
     
     
 }
 
+#container-yt {
+
+    margin: 0;
+
+
+}
+    
+
+
+
+
+
+
+
+    
+
+
+
 #container-2 img {
 
     max-height: 100%;
-    max-width: 200px;
+    max-width: 275px;
     float: none;
     
 
 }
 
 .bio {
-    font-size: 25px;
+    font-size: 24px;
+    padding-right: 75px;
+    padding-top: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
   
 }
 
@@ -191,6 +225,7 @@ span {
     text-align: center;
     background-color: rgb(99, 92, 82);
     text-align: center;
+  
     
 
 
