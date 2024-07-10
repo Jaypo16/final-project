@@ -8,7 +8,8 @@ html {
 .top {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-bottom: 5px;
+    padding-bottom: px;
+    padding: 6px;
     font-size: 24px;
 }
 
@@ -16,7 +17,7 @@ html {
 
 .header {
     overflow: hidden;
-    padding: 20px 10px;
+    padding: 20px;
 
 }
 
@@ -64,7 +65,7 @@ html {
     }
 }
 
-/* Main styling */
+/* Main page styling */
 #container {
     
     padding-bottom: 70px;
@@ -72,12 +73,39 @@ html {
     
 }
 
-
 .container {
     background-color:  rgb(99, 92, 82); 
    
 }
 
+#container-jn {
+   display: flex;
+   
+    
+    
+    
+    
+}
+
+#container-jn figure{
+    border: 1px wheat solid;
+}
+
+#container-jn figcaption {
+        
+     display:table-caption;
+     
+}
+
+.timeline h1:hover {
+    color: rgb(156, 235, 9);
+    cursor: pointer;
+    
+}
+.timeline p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 
 
 /* Pictures*/
@@ -147,7 +175,7 @@ span {
 
 /* Biographies */
 .clear {
-    border-bottom-style:dotted;
+    border-bottom-style:solid;
     padding-bottom:1px;
     padding-top: 1px;
 }
@@ -214,7 +242,12 @@ span {
 }
 #container-3 a {
     cursor:grab;
-    color: rgb(235, 148, 18);
+    color: rgb(156, 235, 9);
+    
+}
+
+#container-jn p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
@@ -225,14 +258,12 @@ span {
     text-align: center;
     background-color: rgb(99, 92, 82);
     text-align: center;
-  
-    
-
-
-
-    
 
 }
+
+
+
+
 
 
 
