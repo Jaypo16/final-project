@@ -80,21 +80,11 @@ html {
 
 #container-jn {
    display: flex;
-   
-    
-    
-    
-    
+      
 }
 
 #container-jn figure{
     border: 1px wheat solid;
-}
-
-#container-jn figcaption {
-        
-     display:table-caption;
-     
 }
 
 .timeline h1:hover {
@@ -106,7 +96,10 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-
+.timeline h1 {
+    
+    margin-right: 97%
+}
 
 /* Pictures*/
 
@@ -129,16 +122,16 @@ span {
     font-size: 30px;
 }
 
-
 #container img {
     max-height: 100%;
     max-width: 200px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 40px;
-      
-   
+    
 }
+
+
 
 .c1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -153,14 +146,11 @@ span {
     
 }
 
-
 .block { 
 
     font-size: 16px;
     text-align: center;
     cursor: pointer;
-
-    
 }
 
 .text-2 {
@@ -187,9 +177,6 @@ span {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 35px;
     
-    
-    
-    
 }
 
 #container-yt {
@@ -198,24 +185,12 @@ span {
 
 
 }
-    
-
-
-
-
-
-
-
-    
-
-
 
 #container-2 img {
 
-    max-height: 100%;
+    max-height: 10%;
     max-width: 275px;
     float: none;
-    
 
 }
 
@@ -225,42 +200,84 @@ span {
     padding-top: 75px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
-  
 }
 
-
-#container-3 h1 {
+.img-text h1 {
 
     margin: auto;
     font-size: 20px;
 
 }
-#container-3 {
 
-    text-align:left;
-
+.img-text {
+    border: 1px white solid;
+    margin-right: auto;
 }
-#container-3 a {
-    cursor:grab;
+
+
+
+
+.img-text a {
+    cursor:cursor;
     color: rgb(156, 235, 9);
     
 }
 
-#container-jn p {
+
+/* Careers and More */
+
+.fame {
+
+  
+    text-align: center;
+
+}
+
+.fameP img{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.fame-info, .fame-info2 , h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 400px;
+    
     
 }
 
-/* Footer */
-#main-footer {
-    color:rgb(235, 148, 18);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    background-color: rgb(99, 92, 82);
-    text-align: center;
+.fame-info2 ul {
+    
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.fame h1 {
+    font-size: 50px;
+    color: rgb(255, 208, 0);
 
 }
 
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    
+
+}
 
 
 
